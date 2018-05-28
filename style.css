@@ -14,6 +14,13 @@ display: none;
 	padding-top: 30px;
 }
 
+h1{
+    font-family: 'Quicksand', sans-serif;  
+    font-size: 40px; 
+    text-shadow: 4px 3px 5px rgb(220, 220, 220);
+
+}
+
 #appart1{
 	background-image: linear-gradient(-225deg, rgba(40,68,62,0.6) 0%, rgba(40,68,62,0.6) 60%),url('appart1.png');
 }
@@ -97,7 +104,33 @@ display: none;
 	padding: 0px;
 }
 
-#avatar {
-	border-radius: 50%;
-	padding-left: 10px;
+body {margin:0.5em}
+
+#map {
+    width:95%; height:85%; 
+    position:absolute; 
+    border:1px solid red;
+}
+
+.button3 {
+    background:#eee;
+    text-decoration:none;
+    color:#333;
+    font-family:Arial, sans-serif;
+    font-size:11px;
+    font-weight:bold;
+    padding:3px 5px;
+    border:1px solid #aaa;
+    border-radius:3px;
+    cursor:default;
+}
+
+.button3:hover {
+    background-color:#f2f2f2;
+    border-color:#888;
+    box-shadow:0 0 2px #ccc;
+}
+
+.button3:active {
+    vertical-align:-1px;
 }
