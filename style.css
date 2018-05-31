@@ -4,6 +4,7 @@
 
 .avg_num {
 display: none;
+
 }
 
 .profil{
@@ -12,6 +13,19 @@ display: none;
 	height:246px;
 	text-align: center;
 	padding-top: 30px;
+}
+
+.mylink a:link {
+	text-decoration: none;
+}
+.mylink a:visited {
+	text-decoration: none;
+}
+.mylink a:hover {
+	text-decoration: none;
+}
+.mylink a:active {
+	text-decoration: none;
 }
 
 h1{
@@ -41,7 +55,7 @@ h1{
 	color:white;
 	line-height: 50%;
 	position: relative;
-	top: 30px;
+	top: 20px;
 	font-size:150%;
 	font-family: 'Cormorant Garamond';
 }
@@ -54,6 +68,7 @@ h1{
 	font-size:120%;
 	font-family: 'Cormorant Garamond';
 	font-weight: italic; 
+
 }
 
 .avatar{
