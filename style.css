@@ -70,10 +70,18 @@ h1{
 	font-weight: italic; 
 
 }
+.avata{
+    width: 57px;
+    height:63px;
+    border-radius: 50%;
+    border-style: groove;
+    border-width: 1px;
+    border-color: white;
+}
 
 .avatar{
-	width: 54px;
-	height:54px;
+	width: 55px;
+	height:55px;
 	border-radius: 50%;
 	border-style: groove;
 	border-width: 1px;
@@ -131,7 +139,7 @@ body {margin:0.5em}
     background:#eee;
     text-decoration:none;
     color:#333;
-    font-family:Arial, sans-serif;
+    font-family:'Quicksand', sans-serif;
     font-size:11px;
     font-weight:bold;
     padding:3px 5px;
